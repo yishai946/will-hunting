@@ -1,0 +1,27 @@
+.layout-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+main {
+  width: 100%;
+}
+
+.layout-container-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar-menu-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
